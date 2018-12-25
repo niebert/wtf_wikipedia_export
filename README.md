@@ -1,0 +1,2 @@
+# wtf_wikipedia_export
+Adding new export formats to  `wtf_wikipedia` need some libraries to perform these task. The repository `wtf_wikipedia_export` aggregates the libraries and tools in package so that developers can create and add a new export format to `wtf_wikipedia`. `wtf_wikipedia_export` makes use of `JSZip` and `jszip-utils` to zip different files into an export bundle, if the exported format is aggegrated of more than one file or if the generated file is a zipped file format itself (e.g. like the LibreOffice Writer format  ODT).
